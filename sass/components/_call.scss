@@ -1,0 +1,41 @@
+.call {
+    width: 206px;
+}
+
+&__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-background-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+&__social-list {
+    display: flex;
+    gap: 10px;
+}
+
+&__link-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms ease-in-out;
+}
+
+&__link-icon:hover,
+&__link-icon:focus {
+    background-color: var(--accent-color);
+}
+
+&__social-icon {
+    fill: currentColor;
+}
